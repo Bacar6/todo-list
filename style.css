@@ -5,10 +5,12 @@ h1{
   color: red;
 } 
 
-
-
-
-
+.box{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
