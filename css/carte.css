@@ -1,9 +1,39 @@
 .box{
-  width: 19px;
-  margin: 29px 51px;
-  padding: 90px 70px 200px;
-  border: 2px solid red;
+  position: relative;
+  width: 300px; 
+    
+}
+
+.box img{
+  width: 100%;
+}
+
+.box:hover .hovered{
+  opacity: 1;
  
+}
+
+.hovered{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all .15s;
+  background-color: #3f3f44;
+}
+
+.hovered span{
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
