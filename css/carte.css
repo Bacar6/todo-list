@@ -1,6 +1,7 @@
+/* CARTE HOVER !!! */
 .box{
   position: relative;
-  width: 300px; 
+  width: 200px; 
     
 }
 
@@ -35,6 +36,8 @@
   transform: translate(-50%, -50%);
   font-family: 'Courier New', Courier, monospace;
 }
+
+/********************* Carte ***********************************************************/
 
 
 
